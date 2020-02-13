@@ -1,0 +1,311 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0c1c7d65-da67-4bff-8696-15d922e0f8c0": {
+        "id": "0c1c7d65-da67-4bff-8696-15d922e0f8c0",
+        "parent": null,
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "function.js",
+        "cursor": {
+          "lineNumber": 17,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "b4c3c5ee-c9f7-4eb1-93c7-cd59daef3870": {
+        "id": "b4c3c5ee-c9f7-4eb1-93c7-cd59daef3870",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        }
+      },
+      "a34a241c-6322-4ba1-be6d-fe1010f22c45": {
+        "id": "a34a241c-6322-4ba1-be6d-fe1010f22c45",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        }
+      },
+      "20bfe018-67f3-46b9-ac0a-13498d6ae8b0": {
+        "id": "20bfe018-67f3-46b9-ac0a-13498d6ae8b0",
+        "parent": null,
+        "name": "py.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "py.py",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "cab593ac-b6a2-4359-9f20-2485e5dfd7c0": {
+        "id": "cab593ac-b6a2-4359-9f20-2485e5dfd7c0",
+        "parent": null,
+        "name": "inn",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4c9191b2-1c5d-4be1-a0fe-a087550880a1",
+          "52466e38-114c-41f8-b286-fb2a8ac0a706"
+        ],
+        "isRemovable": true,
+        "filePath": "inn"
+      },
+      "4c9191b2-1c5d-4be1-a0fe-a087550880a1": {
+        "id": "4c9191b2-1c5d-4be1-a0fe-a087550880a1",
+        "parent": "cab593ac-b6a2-4359-9f20-2485e5dfd7c0",
+        "name": "in.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "inn/in.js",
+        "cursor": {
+          "lineNumber": 19,
+          "column": 15
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "52466e38-114c-41f8-b286-fb2a8ac0a706": {
+        "id": "52466e38-114c-41f8-b286-fb2a8ac0a706",
+        "parent": "cab593ac-b6a2-4359-9f20-2485e5dfd7c0",
+        "name": "inn",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "48e07399-b58c-4cb8-bba8-90e031e184f7",
+          "0d3b7dd0-5cdc-4f50-84cb-09160a2d42c6"
+        ],
+        "isRemovable": true,
+        "filePath": "inn/inn"
+      },
+      "48e07399-b58c-4cb8-bba8-90e031e184f7": {
+        "id": "48e07399-b58c-4cb8-bba8-90e031e184f7",
+        "parent": "52466e38-114c-41f8-b286-fb2a8ac0a706",
+        "name": "innn.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "inn/inn/innn.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 18
+        },
+        "config": {
+          "runtime": "python37",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "0d3b7dd0-5cdc-4f50-84cb-09160a2d42c6": {
+        "id": "0d3b7dd0-5cdc-4f50-84cb-09160a2d42c6",
+        "parent": "52466e38-114c-41f8-b286-fb2a8ac0a706",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "inn/inn/__init__.py"
+      },
+      "8973efb1-80f3-437f-a3d1-49579cc23a74": {
+        "id": "8973efb1-80f3-437f-a3d1-49579cc23a74",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [],
+    "currentFileId": "4c9191b2-1c5d-4be1-a0fe-a087550880a1",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "s3sigmasmoketest": {
+        "name": "s3sigmasmoketest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "sigma.smoketest"
+          }
+        }
+      },
+      "s3btbucketimages": {
+        "name": "s3btbucketimages",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "btbucket.images"
+          }
+        }
+      },
+      "storagetestsigmacloudstorage": {
+        "name": "storagetestsigmacloudstorage",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "test_sigma_cloud_storage"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_REGION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_ACCESS_KEY_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_SECRET_ACCESS_KEY",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.9.6",
+          "dev": false,
+          "notRemovable": false
+        },
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.176.0",
+          "dev": false,
+          "notRemovable": false
+        },
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "gra",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {
+      "AWS": "us-east-1"
+    },
+    "lastSave": 1581556997061
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gra",
+      "url": "https://github.com/janakaud/gra"
+    }
+  }
+}
